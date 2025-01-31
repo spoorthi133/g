@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.nav{
+    height:70px;
+    background-color: black;
+    color:white;
+    text-align : center;
+}
+.choice{
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.choice:hover{
+    cursor: pointer;
+    
+}
+img{
+   height:150px;
+   width:150px;
+ border-radius:50%;
+}
+.choices{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.scoreboard{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+gap:60px;
+font-size:2rem;
+}
+#user-score{
+    font-size :24px;
+    font-weight:bolder;
+
+}
+#comp-score{
+    font-size :24px;
+    font-weight:bolder;
+}
+.msg-container{
+    margin-top:5rem;
+    color:white;
+    background-color: black;
+    height:4rem;
+    text-align: center;
+    font-size: 2rem;
+    display:inline-block;
+  
+  border-radius:10px;
+}
